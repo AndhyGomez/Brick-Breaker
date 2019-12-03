@@ -18,17 +18,17 @@ Enter key: Start a new game once initial game has ended
 3. Run 
  
 ## Files: 
-Main.java 
-  - Entry point for the program 
+* Main.java 
+  * Entry point for the program 
   
-GameLogic.java 
-  - Contains logic/algorithms for the game 
+* GameLogic.java 
+  * Contains logic/algorithms for the game 
   
-BrickMap.java 
-  - Instantiates the map of bricks 
+* BrickMap.java 
+  * Instantiates the map of bricks 
   
-History.java 
-  - Contains method which writes scores to history text file 
+* History.java 
+  * Contains method which writes scores to history text file 
 
 ## Note: 
 If you’d like to adjust the map, intersections will continue to work as long as you adjust variable numBricks on line 25 of GameLogic.java in order to ensure the “Winner!” and “Game Over!” screens remain accurate. 
