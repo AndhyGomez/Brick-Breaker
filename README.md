@@ -2,7 +2,7 @@
  
 My term project submission for my undergraduate Intro Java class. 
  
-This game is a clone of traditional Block Breaking games such as breakout ball. 
+This game is a clone of traditional Block Breaking games such as breakout ball. Written in Java SE-12. 
                       
 ## Controls: 
 Left arrow key: moves platform to the left 
