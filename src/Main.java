@@ -7,6 +7,8 @@
  * written in JavaSE-12 for my Intro to Java Term Project.
  */
 
+import java.io.IOException;
+import javax.swing.JOptionPane;
 import javax.swing.JFrame;
 
 public class Main 
@@ -16,8 +18,20 @@ public class Main
 	 * JFrame to display game.
 	 * @param args main 
 	 */
-	public static void main(String[] args) 
+	public static void main(String[] args) throws IOException 
 	{
+		// Initialize variable 
+		String name;
+		
+		// Ask user for name
+		name = JOptionPane.showInputDialog("Enter your name: ");
+
+		// Create new History object
+		History hist = new History();
+		
+		// Write name to History.txt
+		hist.writeName(name);
+		
 		// Create Frame and set methods
 		JFrame mainFrame = new JFrame();
 		
