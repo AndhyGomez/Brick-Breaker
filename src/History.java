@@ -32,7 +32,7 @@ public class History
 		PrintWriter outputFile = new PrintWriter(fw);
 		
 		// Write to file
-		outputFile.print("Player: " + name);	
+		outputFile.println("Player: " + name);	
 		
 		// Close the file
 		outputFile.close();
