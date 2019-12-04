@@ -14,10 +14,26 @@ Right arrow key: moves platform to the right
 Enter key: Start a new game once initial game has ended 
  
 
-## Steps to Compile:  
-1. Download files 
-2. Save each file 
-3. Run 
+## Steps to Compile: 
+#### **REQUIRES JAVA TO ALREADY BE INSTALLED ON YOUR MACHINE**
+1. Download project as zip 
+2. A) Windows 
+     * Extract Brick-Breaker-Master folder
+     * Copy path to within src folder
+     
+   B) MacOs
+     * Copy path to within src folder 
+3. A) Windows
+     * Open Command Prompt
+     * cd ctrl + v (Redirects you to src folder.)
+     * javac Main.java
+     * java Main
+     
+   B) MacOs
+     * Open Terminal
+     * cd cmd + v (Redirects you to src folder.)
+     * javac Main.java
+     * java Main
  
 ## Files: 
 * Main.java 
