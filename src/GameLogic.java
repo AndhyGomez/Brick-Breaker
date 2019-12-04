@@ -7,9 +7,7 @@
  * to movement and direction of the ball and platform.
  */
 
-import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
 import javax.swing.Timer;
 
 import java.awt.Color;
