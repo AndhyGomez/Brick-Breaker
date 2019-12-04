@@ -84,7 +84,7 @@ public class GameLogic extends JPanel implements KeyListener, ActionListener
 		// Display score
 		sprite.setColor(Color.white);
 		sprite.setFont(new Font("helvetica", Font.BOLD, 20));	
-		sprite.drawString("SCORE: " + score, 570, 35);
+		sprite.drawString("SCORE: " + score, 560, 35);
 		
 		// Create borders
 		sprite.setColor(Color.blue);
