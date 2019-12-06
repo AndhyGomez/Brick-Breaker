@@ -1,7 +1,5 @@
 # Brick-Breaker 
  
-My term project submission for my undergraduate Intro Java class. 
- 
 This game is a clone of traditional Block Breaking games such as breakout ball. Written in Java SE-12. 
 
 ![JFrameSS](https://user-images.githubusercontent.com/47075449/70033136-d44a7980-157c-11ea-94ef-9589d5666cfe.png)
